@@ -25,6 +25,11 @@ https://webkaru.net/linux/cd-command/
 
 git clone https://github.com/tshackstream/wordpress-build-with-docker.git
 
+※git とは
+プログラムソースの変更履歴とかを確認するためのツール
+複数人で開発するときとかは必ずと行っていいほど使うのでほぼマストで覚えるべき
+https://kitsune.blog/git-summary
+
 ディレクトリができる
 
 ## Wordpressを起動
