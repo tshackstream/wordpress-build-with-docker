@@ -27,14 +27,15 @@ https://kitsune.blog/docker-summary
 ターミナルは自分が今いるフォルダ(ターミナルで操作するときはディレクトリと呼ぶのが一般的)でコマンドを実行していく
 まずはWordpressを使うディレクトリまで移動する
 
-cd /適当なところ
+`cd /適当なところ`
 
 cd コマンドについて
+
 https://webkaru.net/linux/cd-command/
 
 ## このリポジトリをclone
 
-git clone https://github.com/tshackstream/wordpress-build-with-docker.git
+`git clone https://github.com/tshackstream/wordpress-build-with-docker.git`
 
 ※git とは
 
@@ -49,12 +50,13 @@ https://kitsune.blog/git-summary
 
 ## Wordpressを起動
 
-cd wordpress-build-with-docker
+`cd wordpress-build-with-docker`
 
-docker-compose up -d
+`docker-compose up -d`
 
 終わったら
-docker-compose ps
+
+`docker-compose ps`
 
 ↓のように表示されればOK
 
@@ -68,6 +70,7 @@ word-press-build_wordpress_1   docker-entrypoint.sh apach ...   Up      0.0.0.0:
 ## Wordpressにアクセス
 
 chromeとかSafariとかのブラウザで
+
 http://localhost:8000
 
 にアクセス。表示されればOK。
