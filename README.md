@@ -5,6 +5,13 @@
 https://docs.docker.com/docker-for-mac/install/
 ここ参照
 
+※Dockerとは
+
+仮想環境を構築するツール。PCの上にもう1台PCを構築するイメージ。
+環境構築の情報を設定ファイルで定義する。OSとかに左右されずに同じ環境でプログラムが実行できたりするメリットがある。
+今の開発現場ではめちゃくちゃ使うので余裕があったら覚えておくと良い。
+https://kitsune.blog/docker-summary
+
 ## ターミナルを起動
 
 アプリケーションの中にターミナルってやつがあるはずなのでそれを選択して起動
@@ -26,8 +33,9 @@ https://webkaru.net/linux/cd-command/
 git clone https://github.com/tshackstream/wordpress-build-with-docker.git
 
 ※git とは
+
 プログラムソースの変更履歴とかを確認するためのツール
-複数人で開発するときとかは必ずと行っていいほど使うのでほぼマストで覚えるべき
+複数人で開発するときとかは必ずといっていいほど使うのでほぼマストで覚えるべき
 https://kitsune.blog/git-summary
 
 ディレクトリができる
